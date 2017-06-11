@@ -1,0 +1,61 @@
+#sand-box {
+    margin-top: -109px;
+    height: 600 px;
+    width: 600 px;
+    background-color: white;
+    clear: both;
+    position: relative;
+}
+
+.circle {
+    background-color: black;  
+    border-radius: 50%;  
+    position: absolute;
+}
+
+.triangle {
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-width: 0 0 100px 100px;
+    border-color: transparent transparent black transparent;
+    position: absolute;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/*div {
+    height: 56px;
+}*/
+
+.shape-div {
+    /*background-color: red;*/
+    width: 148px;
+    height: 160px;
+    float: left;
+    border:solid black 1px;
+    text-align: center;
+    position:static;
+}
+
+#side-panel{
+    border: solid black 1px;
+    float: left;
+    width: 200px;
+    height: 142px;
+    position:relative;
+    clear: both;
+    height:598px;
+    width:900px;
+    text-align: right;
+    /*margin-top: 160px;*/
+}
+
+.rectangle {
+    background-color: red;  
+ 
+    position: absolute;
+}
+
