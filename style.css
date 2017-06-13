@@ -1,26 +1,35 @@
 #sand-box {
     margin-top: -109px;
-    height: 600 px;
-    width: 600 px;
+    height: 600px;
+    width: 600px;
     background-color: white;
     clear: both;
     position: relative;
 }
 
 .circle {
-    background-color: black;  
+    background-color: purple;  
     border-radius: 50%;  
     position: absolute;
 }
 
 .triangle {
-    height: 0px;
-    width: 0px;
-    border-style: solid;
-    border-width: 0 0 100px 100px;
-    border-color: transparent transparent black transparent;
+    border-width: 0;
+    border-color: transparent;
+    border-bottom-color: yellow;
+    border-style: solid; 
+    position:absolute;
+}
+
+.rectangle {
+    background-color: green;
     position: absolute;
 }
+
+.square {
+    background-color: red;
+}
+
 
 h1 {
     font-weight: bold;
@@ -31,7 +40,6 @@ h1 {
 }*/
 
 .shape-div {
-    /*background-color: red;*/
     width: 148px;
     height: 160px;
     float: left;
@@ -40,22 +48,11 @@ h1 {
     position:static;
 }
 
-#side-panel{
-    border: solid black 1px;
-    float: left;
-    width: 200px;
-    height: 142px;
-    position:relative;
-    clear: both;
-    height:598px;
-    width:900px;
-    text-align: right;
-    /*margin-top: 160px;*/
+#detail-pane {
+    display: inline-block;
+    width: 300px;
+    margin: 0 30px;
+    vertical-align: top;
 }
 
-.rectangle {
-    background-color: red;  
- 
-    position: absolute;
-}
 
